@@ -1,16 +1,15 @@
 /*
-  custom styles for Hyde-based Jekyll portfolio page
-  author: Andrew Roy Chen
-  last mod: August 2015
+custom styles for Hyde-based Jekyll portfolio page
+author: Andrew Roy Chen
+last mod: August 2015
 */
 
 html, body {
-    height: 100%;
+  height: 100%;
 
 }
 
 .sidebar {
-
   background-image: url(http://www.transparenttextures.com/patterns/groovepaper.png);
 
   -webkit-clip-path: polygon(96% 0%, 100% 4%, 100% 10%, 96% 15%, 99% 20%, 100% 28%, 95% 33%, 100% 37%, 100% 42%, 98% 44%, 97% 47%, 99% 51%, 100% 58%, 97% 60%, 96% 65%, 100% 70%, 100% 75%, 98% 78%, 96% 79%, 99% 84%, 99% 89%, 99% 93%, 96% 96%, 99% 99%, 95% 100%, 0% 100%, 0% 0%);
@@ -24,88 +23,88 @@ html, body {
 
 /********flip btn */
 .welcome-sign {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	position: relative;
-	/*box-shadow: 0 1px 2px rgba(0,0,0,0.1);*/
-	cursor: default;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  /*box-shadow: 0 1px 2px rgba(0,0,0,0.1);*/
+  cursor: default;
   text-align: center;
 }
 
 .welcome-img {
-	background-image: url(http://tympanus.net/Tutorials/CircleHoverEffects/images/16.jpg);
+  background-image: url(http://tympanus.net/Tutorials/CircleHoverEffects/images/16.jpg);
 }
 
 .welcome-texture {
   background-color: #fffcfc;
-background-image: url(http://www.transparenttextures.com/patterns/groovepaper.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url(http://www.transparenttextures.com/patterns/groovepaper.png);
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .welcome-info-wrap,
 .welcome-info{
-	position: absolute;
-	width: 90px;
-	height: 90px;
-	border-radius: 50%;
-	transition: all 0.4s ease-in-out;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
 
 }
 
 .welcome-info-wrap {
-	top: 10px;
-	left: 10px;
-	background: #f9f9f9 url(../images/bg.jpg);
-	box-shadow:
-		0 0 0 10px rgba(255,255,255,0.2),
-		inset 0 0 3px rgba(230,230, 150, 0.8);
-	perspective: 800px;
+  top: 10px;
+  left: 10px;
+  background: #f9f9f9 url(../images/bg.jpg);
+  box-shadow:
+  0 0 0 10px rgba(255,255,255,0.2),
+  inset 0 0 3px rgba(230,230, 150, 0.8);
+  perspective: 800px;
 }
 
 .welcome-info {
-	transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .welcome-info > div {
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	background-position: center center;
-	transition: all 0.6s ease-in-out;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
 
 }
 
 .welcome-info .welcome-info-front {
-	transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
-	z-index: 100;
+  z-index: 100;
   background: #fff;
-	/*box-shadow: inset 2px 1px 4px rgba(0,0,0,0.1);*/
+  /*box-shadow: inset 2px 1px 4px rgba(0,0,0,0.1);*/
 }
 
 .welcome-info .welcome-info-back {
-	background: rgba(230,132,107,0.6) url(http://www.transparenttextures.com/patterns/groovepaper.png);
+  background: rgba(230,132,107,0.6) url(http://www.transparenttextures.com/patterns/groovepaper.png);
 
 }
 
 .welcome-info h3 {
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 10px;
-	margin: 0 15px;
-	padding: 20px 0 0 0;
-	height: 40px;
-	font-family: 'Open Sans', Arial, sans-serif;
-	text-shadow:
-		0 0 1px #fff,
-		0 1px 2px rgba(0,0,0,0.3);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+  margin: 0 15px;
+  padding: 20px 0 0 0;
+  height: 40px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow:
+  0 0 1px #fff,
+  0 1px 2px rgba(0,0,0,0.3);
   transform: translateY(50%);
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%);
@@ -113,38 +112,38 @@ background-image: url(http://www.transparenttextures.com/patterns/groovepaper.pn
 }
 
 .welcome-info p {
-	color: #fff;
-	padding: 10px 5px;
-	font-style: italic;
-	margin: 0 20px;
-	font-size: 9px;
-	border-top: 1px solid rgba(255,255,255,0.5);
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 20px;
+  font-size: 9px;
+  border-top: 1px solid rgba(255,255,255,0.5);
 }
 
 .welcome-info p a {
-	display: block;
-	color: rgba(255,255,255,0.7);
-	font-style: normal;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 8px;
-	letter-spacing: 1px;
-	padding-top: 4px;
-	font-family: 'Open Sans', Arial, sans-serif;
+  display: block;
+  color: rgba(255,255,255,0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 8px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .welcome-info p a:hover {
-	color: rgba(255,242,34, 0.8);
+  color: rgba(255,242,34, 0.8);
 }
 
 .welcome-sign:hover .welcome-info-front {
-	transform: rotate3d(1,0,0,-180deg);
+  transform: rotate3d(1,0,0,-180deg);
   -webkit-transform: rotate3d(1,0,0,-180deg);
   -ms-transform: rotate3d(1,0,0,-180deg);
 
-	box-shadow:
-		inset 0 0 5px rgba(255,255,255,0.2),
-		inset 0 0 3px rgba(0,0,0,0.3);
+  box-shadow:
+  inset 0 0 5px rgba(255,255,255,0.2),
+  inset 0 0 3px rgba(0,0,0,0.3);
 }
 
 .welcome-open {
@@ -153,31 +152,29 @@ background-image: url(http://www.transparenttextures.com/patterns/groovepaper.pn
   -ms-transform: rotate3d(1,0,0,-180deg);
 
   box-shadow:
-    inset 0 0 5px rgba(255,255,255,0.2),
-    inset 0 0 3px rgba(0,0,0,0.3);
+  inset 0 0 5px rgba(255,255,255,0.2),
+  inset 0 0 3px rgba(0,0,0,0.3);
 }
 
 .welcome-sign:hover .welcome-info-back {
-	background: rgba(230,132,107,0.6);
+  background: rgba(230,132,107,0.6);
 }
 /* *********************** */
 
 body,
 .sidebar {
-    transition: transform 1s ease-in-out;
-    -webkit-transition: transform 1s ease-in-out;
-
+  transition: transform 1s ease-in-out;
+  -webkit-transition: transform 1s ease-in-out;
 }
 
 .hide-sidebar {
-    transform: translateX(-18rem);
-    -webkit-transform: translateX(-18rem);
-    -ms-transform: translateX(-18rem);
-
+  transform: translateX(-18rem);
+  -webkit-transform: translateX(-18rem);
+  -ms-transform: translateX(-18rem);
 }
 
 .project-img {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .welcome-text {
@@ -208,16 +205,16 @@ body,
 }
 
 .project-list__item::before {
-    content: "View details";
-    font-size: 1.5em;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: -5%;
-    padding: 1em;
-    background-color: #DDD;
-    width: 95%;
-    height: 50%;
+  content: "View details";
+  font-size: 1.5em;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  padding: 1em;
+  background-color: #DDD;
+  width: 95%;
+  height: 50%;
 }
 
 .project-list__item:hover::before {
@@ -251,6 +248,12 @@ body,
   border-radius: .5em;
 }
 
+.card-project-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
 .card-close-btn {
   position: absolute;
   top: 1em;
@@ -258,6 +261,10 @@ body,
   padding: .5em;
   background: #FFF;
   text-align: center;
+}
+
+body[data-project=open] {
+  overflow: hidden;
 }
 
 .project[data-state=closed] {
@@ -274,6 +281,21 @@ body,
   opacity: 0;
 }
 
+.page-top-btn {
+  width: 5em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #AC4142;
+  border-radius: .3em;
+  margin-top: 5em;
+}
+
+.page-top-btn:hover {
+  background-color: #AC4142;
+  color: #FFF !important;
+}
+
 
 
 @media (max-width: 48em) {
@@ -282,10 +304,9 @@ body,
   }
 
   .hide-sidebar {
-    transform: translateY(-26rem);
-    -webkit-transform: translateY(-26rem);
-    -ms-transform: translateY(-26rem);
-
+    transform: translateY(-28rem);
+    -webkit-transform: translateY(-28rem);
+    -ms-transform: translateY(-28rem);
   }
 
   .project {

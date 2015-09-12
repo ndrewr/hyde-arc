@@ -55,25 +55,33 @@ console.log('lets do this');
 
 var openCard = function(e) {
   // use event object to find 'id tag' of clicked project
-  // add class 'show' to that project div
-  var tagType = e.target.tagName;
+  var node, tagType = e.target.tagName;
+  // make sure you are getting LI tag
   if(tagType === "LI") {
-    var node = e.target;
-    console.log("LI clicked directly and tag value is " + node.dataset.tag);
+    node = e.target;
   }
   else {
-    var node = e.target.parentNode;
-    console.log(tagType + " was clicked. But parent is " + node.tagName + " and tag is " + node.dataset.tag);
+    node = e.target.parentNode;
   }
   var card = document.getElementById(node.dataset.tag+"-card");
-  card.setAttribute('data-state', 'open');
+  var body = document.querySelector("body");
+  window.scrollTo(0, 0);
 
-  console.log(card);
+
+  card.setAttribute('data-state', 'open');
+  body.setAttribute('data-project', 'open');
+
 };
 
 var closeCard = function(e) {
   var card = document.querySelector(".project[data-state='open']");
+
+  // var project_item = document.querySelector(".project-list__item[data-state='open']");
+  var body = document.querySelector("body");
+
   card.setAttribute('data-state', 'closed');
+  body.setAttribute('data-project', 'closed');
+
 };
 
 // set up click of project list item to open project card

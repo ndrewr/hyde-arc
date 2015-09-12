@@ -6,6 +6,7 @@ title: Code
 <div>
 
   <p>here are some things I built.</p>
+  <p>(tap for more details)</p>
   <div id="project-list">
     <ul>
       {% for project in site.projects %}
@@ -35,6 +36,9 @@ title: Code
       <div>
         <img src="{{ project.screenshot }}">
       </div>
+
+      <a class="card-project-link" href="{{ project.link }}" target="_blank">check it out &gt</a>
+
       {{ project.content }}
       <p>
         <a href="#" class="card-close-btn">close</a>

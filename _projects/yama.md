@@ -1,7 +1,7 @@
 ---
 layout: project
 title: YaMA
-description: Yes another MOOC Aggregator
+description: Yes, another MOOC Aggregator
 link: http://yama-go.herokuapp.com
 screenshot: public/images/yama-screen1.png
 ---

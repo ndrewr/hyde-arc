@@ -5,4 +5,12 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
+  <a href="#" class="page-top-btn">up</a>
 </div>
+
+<script>
+/* auto scroll to content on load */
+var offset = document.querySelector(".page").offsetTop;
+window.scrollTo(0, (offset-30));
+console.log(offset);
+</script>
