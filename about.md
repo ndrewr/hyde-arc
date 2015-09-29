@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+---
+
+
 ## ***Why code?***
 
 I graduated from a CS program dreading software development.
