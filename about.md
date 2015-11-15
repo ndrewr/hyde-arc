@@ -1,7 +1,9 @@
 ---
 layout: page
 title: About
+published: true
 ---
+
 
 
 ## ***Why code?***
@@ -13,7 +15,7 @@ Degree in hand, I felt adrift between process and end-user. I did other things l
 
 ## ***To Create and Contribute.***
 
-The potential to serve cemented in my mind while taking my first online course.
+This potential to serve cemented in my mind while taking my first online course.
 
 The course, naturally:  [Web Development](https://www.udacity.com/course/web-development--cs253).
 
