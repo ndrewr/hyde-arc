@@ -12,6 +12,8 @@ Teachers create units of vocab then link and assign to all students in a course 
 
 Students use the practice mode of the app, set up like a card game with language audio functionality. Progress is saved, giving the teacher insight into where to allocate classroom instruction time.
 
+Contributions include implementing new features and UI/UX enhancements across the app.
+ 
 ###Key tech:
 - Meteor.js
 - React.js

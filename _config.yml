@@ -23,10 +23,12 @@ collections:
 
 
 # Custom vars
-version:          2.1.x
+version:          2.2
 
 github:
   main:           https://github.com/uncleoptimus
   repo:           https://github.com/uncleoptimus/hyde-arc
 
 linkedin:         https://www.linkedin.com/in/anzuchen
+
+resume:           https://docs.google.com/document/d/1cpcdqMndZKeD5G0KLzMWs5duryP-Xyllw0Kaf83xNS0/edit?usp=sharing
